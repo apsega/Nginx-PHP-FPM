@@ -4,11 +4,13 @@
 
 Docker container for Nginx + PHP-FPM based on CentOS latest image.
 
-Additional PHP extensions are included for various CMS (such as OpenCart) support:
+Additional PHP extensions are included for various CMS (such as OpenCart, PrestaShop) support:
 
 - php-gd 
 - php-mcrypt
 - php-mysql
+- php-mbstring
+- php-xml
 
 Added custom ``nginx.conf`` configuration file that passes all PHP scripts to FastCGI (PHP-FPM). SEO URLs are supported.
 
