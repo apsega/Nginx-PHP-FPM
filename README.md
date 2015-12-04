@@ -1,4 +1,7 @@
 # Nginx-PHP-FPM
+
+[![](https://badge.imagelayers.io/edgaras/nginx-php-fpm:latest.svg)](https://imagelayers.io/?images=edgaras/nginx-php-fpm:latest)
+
 Docker container for Nginx + PHP-FPM based on CentOS latest image.
 
 Additional PHP extensions are included for various CMS (such as OpenCart) support:
